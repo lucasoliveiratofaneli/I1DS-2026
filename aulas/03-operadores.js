@@ -7,7 +7,7 @@ console.log("----------------");
 
 //Definindo uma variável para soma
 let soma = x + y; //declarei uma variável "soma" e somei os valores de x e y
-console.log("A soma de x + y é", soma); //mostrei o valor da soma
+console.log("A soma de x + y é", soma) ; //mostrei o valor da soma
 
 //DESAFIO 01 - CRIAR OS OUTROS 3 OPERADORES ARITMÉTICOS
 //    (subtração -) (multiplicação *) (divisão /)
