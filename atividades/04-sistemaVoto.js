@@ -7,6 +7,7 @@
     e se o voto é obrigatório ou opcional.
 */
 
+// Método(Cristiano)
 function podeVotar(idade) {
   let frase;
   if (idade < 16) {
