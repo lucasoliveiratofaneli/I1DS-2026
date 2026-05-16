@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Input com Const</title>
+  </head>
+ <body>
+<h2>Digite uma palavra</h2>
+<Input type="text" id="palavraDigitada">
+<button onclick="verificarPalindromo()">Verificar se é um palíndromo</button>
+<h3 id="resultado"></h3>
+
+<script>
+const input = document.getElementById("palavraDigitada");
+const resultado = document.getElementById("resultado");
+
+function verificarPalindromo(){
+const palavra = input.value;
+const palavraInvertida = palavra
+.split("")
+.reverse()
+.join("");
+
+if(palavra === palavraInvertida){
+resultado.innerText = "Aqui temos um palíndromo";
+}else{
+resultado.innerText = "Isso aqui não é um palíndromo";
+}
+}
+</script>
+</body>
+</html> 
